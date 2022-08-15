@@ -14,7 +14,6 @@
 .popup-mobile__container {
     width: 312px;
     background-color: white;
-    border-radius: 10px;
     position: relative;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
     display: flex;
@@ -121,11 +120,7 @@
 }
 
 .popup-mobile__select-wrapper {
-    margin: 40px 12px 0 10px;
-}
-
-.popup-mobile__select-wrapper:first-of-type {
-    margin-bottom: 20px;
+    margin: 20px 12px 0 10px;
 }
 
 .popup-mobile__name {
@@ -235,7 +230,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .popup-mobile__button {
@@ -257,7 +252,7 @@
 
 .popup-mobile__checkbox-wrapper {
     position: relative;
-    margin: 17px 0 0;
+    margin: 10px 0 0;
 }
 
 .popup-mobile__checkbox {

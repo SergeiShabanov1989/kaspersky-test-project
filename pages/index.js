@@ -1,4 +1,5 @@
 const popup = document.querySelector('.popup');
+const page = document.querySelector('.page');
 const price = document.querySelector('.offer__price-after');
 const formSelect = document.querySelector('.offer__years');
 const popupPrice = document.querySelector('.popup__price');
@@ -36,11 +37,13 @@ function checkMediaQuery() {
 function openMobilePopup() {
   mobilePopup.classList.add('opened_mobile');
   popupOpen.classList.remove('popup-open_opened')
+  page.classList.add('page-block');
 }
 
 function closeMobilePopup() {
   mobilePopup.classList.remove('opened_mobile');
   popupOpen.classList.add('popup-open_opened')
+  page.classList.remove('page-block');
 }
 
 function openInfoBlock () {
