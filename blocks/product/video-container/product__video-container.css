@@ -1,0 +1,10 @@
+.product__video-container {
+
+}
+
+@media screen and (max-width: 767px) {
+    .product__video-container {
+        order: 1;
+        margin-bottom: 30px;
+    }
+}

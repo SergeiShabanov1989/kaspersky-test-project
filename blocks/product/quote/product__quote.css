@@ -1,0 +1,16 @@
+.product__quote {
+  font-family: 'Kaspersky Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: black;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .product__quote {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}

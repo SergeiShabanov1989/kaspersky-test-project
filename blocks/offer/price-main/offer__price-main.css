@@ -1,0 +1,13 @@
+.offer__price-main {
+  display: flex;
+  flex: 1 1;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .offer__price-main {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

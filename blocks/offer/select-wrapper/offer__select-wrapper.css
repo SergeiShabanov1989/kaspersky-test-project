@@ -1,0 +1,9 @@
+.offer__select-wrapper {
+  margin: 40px 12px 0 10px;
+}
+
+@media screen and (max-width: 1279px) {
+  .offer__select-wrapper {
+    margin: 20px 12px 0 10px;
+  }
+}

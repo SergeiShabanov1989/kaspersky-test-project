@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Kaspersky Sans';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Kaspersky Sans Regular.woff2") format("woff2"),
+       url("./Kaspersky Sans Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Kaspersky Sans';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./Kaspersky Light.woff2") format("woff2"),
+  url("./Kaspersky Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Kaspersky Sans';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./Kaspersky Bold.woff2") format("woff2"),
+  url("./Kaspersky Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./mulish-v12-latin_cyrillic-300.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('./mulish-v12-latin_cyrillic-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('./mulish-v12-latin_cyrillic-300.woff2') format('woff2'), /* Super Modern Browsers */
+  url('./mulish-v12-latin_cyrillic-300.woff') format('woff'), /* Modern Browsers */
+  url('./mulish-v12-latin_cyrillic-300.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('./mulish-v12-latin_cyrillic-300.svg#Mulish') format('svg'); /* Legacy iOS */
+}

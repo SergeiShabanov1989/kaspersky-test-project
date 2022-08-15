@@ -1,0 +1,10 @@
+.offer__main {
+  display: flex;
+  box-shadow: 0 8px 24px rgba(29, 29, 27, 0.08);
+}
+
+@media screen and (max-width: 767px) {
+  .offer__main {
+    flex-direction: column;
+  }
+}

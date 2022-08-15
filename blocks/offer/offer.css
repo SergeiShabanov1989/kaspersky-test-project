@@ -1,0 +1,15 @@
+.offer {
+  max-width: 1110px;
+}
+
+@media screen and (max-width: 1279px) {
+  .offer {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .offer {
+    max-width: 360px;
+  }
+}

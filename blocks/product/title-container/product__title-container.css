@@ -1,0 +1,9 @@
+.product__title-container {
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .product__title-container {
+    align-items: center;
+  }
+}

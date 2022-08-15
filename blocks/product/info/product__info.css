@@ -1,0 +1,16 @@
+.product__info {
+  max-width: 570px;
+}
+
+@media screen and (max-width: 1279px) {
+  .product__info {
+    max-width: 430px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .product__info {
+    order: 2;
+    max-width: 360px;
+  }
+}

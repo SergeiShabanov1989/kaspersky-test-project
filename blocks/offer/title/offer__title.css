@@ -1,0 +1,16 @@
+.offer__title {
+  font-family: 'Kaspersky Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 25px;
+  margin: 50px 0 0;
+  min-width: 125px;
+}
+
+@media screen and (max-width: 1279px) {
+  .offer__title {
+    margin: 20px 0 0;
+    min-width: 180px;
+  }
+}

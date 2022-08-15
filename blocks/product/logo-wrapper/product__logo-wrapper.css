@@ -1,0 +1,10 @@
+.product__logo-wrapper {
+  height: 56px;
+  width: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .product__logo-wrapper {
+    margin-right: 10px;
+  }
+}

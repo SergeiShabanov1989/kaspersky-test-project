@@ -1,0 +1,5 @@
+.offer__price-container {
+  display: flex;
+  flex-direction: column;
+  margin: 42px 17px 0;
+}

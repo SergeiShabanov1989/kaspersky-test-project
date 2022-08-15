@@ -1,0 +1,19 @@
+.product__list-item {
+  list-style: none;
+  font-family: 'Kaspersky Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.product__list-item::before {
+  content: '';
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background-image: url("../../../images/Green.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 8px;
+}

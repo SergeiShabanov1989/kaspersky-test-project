@@ -1,0 +1,35 @@
+.offer__logo-container {
+  max-width: 300px;
+  display: flex;
+  position: relative;
+}
+
+.offer__logo-container::after {
+  content: "";
+  position: absolute;
+  height: 85%;
+  background: #CCCCCC;
+  top: 15%;
+  width: 1px;
+  right: 0;
+  transform: translateY(-10%);
+}
+
+@media screen and (max-width: 767px) {
+  .offer__logo-container::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background: #CCCCCC;
+    top: 110%;
+    width: 85%;
+    right: 0;
+    transform: translateY(-10%);
+  }
+}
+
+/*@media screen and (max-width: 1279px) {*/
+/*  .offer__logo-container {*/
+/*    padding-top: 20px;*/
+/*  }*/
+/*}*/

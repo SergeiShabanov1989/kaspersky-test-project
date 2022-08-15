@@ -1,0 +1,11 @@
+.offer__span {
+  font-family: 'Kaspersky Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  position: absolute;
+  top: 0;
+  right: 30px;
+  margin: 0;
+}

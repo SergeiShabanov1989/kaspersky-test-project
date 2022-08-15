@@ -1,0 +1,16 @@
+.product__title {
+  font-family: 'Kaspersky Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .product__title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

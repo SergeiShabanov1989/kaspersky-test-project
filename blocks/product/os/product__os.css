@@ -1,0 +1,15 @@
+.product__os {
+  font-family: 'Kaspersky Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #444444;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px){
+  .product__os {
+    margin: 50px 0;
+  }
+}

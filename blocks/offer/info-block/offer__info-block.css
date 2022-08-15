@@ -1,0 +1,28 @@
+.offer__info-block {
+    display: none;
+    flex-direction: column;
+    width: 215px;
+    height: 130px;
+    position: absolute;
+    top: -30px;
+    left: 16%;
+    background-color: #FFFFFF;
+    z-index: 50;
+}
+
+.offer__info-block_opened {
+    display: flex;
+}
+
+@media screen and (max-width: 1279px){
+    .offer__info-block {
+        top: -40px;
+        left: 84%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .offer__info-block {
+        display: none;
+    }
+}

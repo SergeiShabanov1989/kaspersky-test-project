@@ -1,0 +1,11 @@
+.offer__logo-wrapper {
+  min-width: 57px;
+  height: 62px;
+  margin: 50px 12px 0 15px;
+}
+
+@media screen and (max-width: 1279px) {
+  .offer__logo-wrapper {
+    margin: 20px 12px 0 15px;
+  }
+}

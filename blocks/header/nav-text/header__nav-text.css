@@ -1,0 +1,14 @@
+.header__nav-text {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  color: #444444;
+  text-decoration: none;
+  margin: 0 0 0 30px;
+}
+
+.header__nav-text:first-of-type {
+  margin: 0;
+}

@@ -1,0 +1,24 @@
+.offer__wrapper {
+  width: 285px;
+  height: 40px;
+  background-color: #FFED40;
+  position: absolute;
+  top: 0;
+  right: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .offer__wrapper {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .offer__wrapper {
+    right: 0;
+    width: 100%;
+  }
+}

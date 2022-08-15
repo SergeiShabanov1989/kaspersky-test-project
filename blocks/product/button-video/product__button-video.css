@@ -1,0 +1,19 @@
+.product__button-video {
+  width: 240px;
+  height: 67px;
+  position: absolute;
+  top: 40%;
+  right: 30%;
+  background: url(../../../images/watchvideo.png) center no-repeat;
+  background-size: 100%;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1279px) {
+  .product__button-video {
+    width: 180px;
+    height: 50px;
+  }
+}

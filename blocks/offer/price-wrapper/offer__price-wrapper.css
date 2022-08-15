@@ -1,0 +1,6 @@
+.offer__price-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
