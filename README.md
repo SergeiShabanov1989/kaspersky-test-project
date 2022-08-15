@@ -4,4 +4,4 @@
 
 **GitHub Pages**
 
-[Ссылка :)](https://sergeishabanov1989.github.io/kaspersky-test-project/)
+[Ссылка на GitHub Pages](https://sergeishabanov1989.github.io/kaspersky-test-project/)
