@@ -10,6 +10,8 @@ const mobilePopup = document.querySelector('.popup-mobile');
 const closeButton = document.querySelector('.popup-mobile__close')
 const infoBlock = document.querySelector('.offer__info-block');
 const infoButtonBlock = document.querySelector('.bottom__info');
+const priceMobile = document.querySelector('.popup-mobile__price');
+const formSelectMobile = document.querySelector('.popup-mobile__years');
 
 window.addEventListener('scroll', function() {
   if (scrollY > 700) {
@@ -59,6 +61,8 @@ function increaseOffer() {
   }
   popupPrice.textContent = price.textContent;
   popupSelect.value = formSelect.value;
+  formSelectMobile.value = formSelect.value;
+  priceMobile.textContent = price.textContent;
 }
 
 function increasePopup() {
@@ -72,8 +76,20 @@ function increasePopup() {
   formSelect.value = popupSelect.value;
 }
 
+function increasePopupMobile() {
+  if (formSelectMobile.value == 1) {
+    priceMobile.textContent = '100000000';
+  } if (formSelectMobile.value > 1) {
+    const newPricePopup = 100000000 * Number(formSelectMobile.value)
+    priceMobile.textContent = String(newPricePopup);
+  }
+  price.textContent = priceMobile.textContent;
+  formSelect.value = formSelectMobile.value;
+}
+
 formSelect.addEventListener('change', increaseOffer);
 popupSelect.addEventListener('change', increasePopup);
+formSelectMobile.addEventListener('change', increasePopupMobile);
 popupOpen.addEventListener('click', openMobilePopup);
 closeButton.addEventListener('click', closeMobilePopup);
 infoButtonBlock.addEventListener('click', openInfoBlock);
